@@ -11,8 +11,8 @@ import router from './router';
 const store = createStore({
     state() {
         return {
-            publicApiUrl: "https://d33vq3i0exsn9d.cloudfront.net/",
-            eventId: "Sample",
+            publicApiUrl: "",
+            eventId: "",
             requestId: null,
             myPosition: 0,
             queuePosition: 0,
